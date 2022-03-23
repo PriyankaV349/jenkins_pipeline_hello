@@ -1,6 +1,6 @@
-node {
-   stage 'Stage 1'
-   		echo 'Hello World 1'
-   stage 'Stage 2'
-   		echo 'Hello World 2'
+ode {
+    stage 'python script'
+        sh 'python /home/ubuntu/pyshell/demo_file.py'
+    stage 'Stage 2'
+        echo 'did it run'
 }
